@@ -5,6 +5,7 @@
 - The project is currently in a stable, functional state for scraping and exporting PCO data.
 
 ## Recent Changes
+- Added a GitHub Actions workflow (`.github/workflows/build-windows.yml`) to automatically build and package the application for Windows on every push.
 - Fixed a bug in `data_processor.py` where newline characters (`\n`, `\r`) in raw data caused structural issues in the exported CSV files by replacing them with commas.
 - Initial project analysis and documentation.
 
